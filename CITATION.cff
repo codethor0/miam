@@ -10,6 +10,7 @@ authors:
     affiliation: "Independent Open-Source Researcher"
     orcid: "https://orcid.org/0009-0001-6573-385X"
 version: "1.0.0"
+doi: "10.5281/zenodo.23001045"
 date-released: "2026-09-27"
 license: CC-BY-4.0
 repository-code: "https://github.com/codethor0/miam"

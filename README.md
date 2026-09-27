@@ -1,5 +1,7 @@
 # Mission-Invariant Architecture Morphing (MIAM)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23001045.svg)](https://doi.org/10.5281/zenodo.23001045)
+
 **Service-Graph Reconfiguration Against Post-Access Reconnaissance, with Cryptographic Epoch Isolation and Mission-Domain State Continuity**
 
 Thor Thor. Independent Open-Source Researcher, THOR-SEC. ORCID: [0009-0001-6573-385X](https://orcid.org/0009-0001-6573-385X)
@@ -48,6 +50,8 @@ Requires a standard TeX Live installation with TikZ and pgfplots.
 Corrections, critiques, replications, and prototype implementations are welcome. Open an issue using the "Review finding" template, and cite the section, equation, figure, or claim number.
 
 ## Citation
+
+Thor, T. (2026). Mission-Invariant Architecture Morphing: Service-Graph Reconfiguration Against Post-Access Reconnaissance, with Cryptographic Epoch Isolation and Mission-Domain State Continuity (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23001045
 
 Use the "Cite this repository" button on GitHub, or the metadata in `CITATION.cff`.
 

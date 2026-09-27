@@ -1,0 +1,27 @@
+{
+  "title": "Mission-Invariant Architecture Morphing: Service-Graph Reconfiguration Against Post-Access Reconnaissance, with Cryptographic Epoch Isolation and Mission-Domain State Continuity",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Thor, Thor",
+      "affiliation": "Independent Open-Source Researcher",
+      "orcid": "0009-0001-6573-385X"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "keywords": [
+    "moving target defense",
+    "self-adaptive systems",
+    "microservices",
+    "cyber resilience",
+    "reconnaissance",
+    "runtime architecture graphs",
+    "workload identity",
+    "key rotation",
+    "attack surface"
+  ],
+  "notes": "Design proposal and formal model. Reports no empirical security results. Appendix A is a reference claim set released as a defensive publication.",
+  "description": "Modern moving-target defenses alter addresses, ports, hosts, software variants, workflows, or computing environments to reduce the useful lifetime of attacker observations. This paper proposes Mission-Invariant Architecture Morphing (MIAM), a research architecture that moves the defensive transformation boundary into the application itself, targeting post-initial-access reconnaissance such as dependency mapping, lateral movement, and credential reuse. MIAM represents a workload as capability units assigned to runtime service graphs drawn from a certified grammar. For each candidate graph, machine-evaluable attack-prerequisite predicates estimate which previously learned conditions remain actionable, while a separate exposure term bounds new attack surface introduced by the candidate. A graph delta is combined with a capability-state map to derive a transition policy that permits only validated mission-domain state to cross the epoch boundary while blocking designated runtime and security state. A verified target graph is then instantiated under distinct epoch authority and cut over behind a stable logical interface. The paper develops an operational reconnaissance-transfer model, architecture-distance measures, a recurrence-aware retention model showing that a finite variant pool imposes a nonzero knowledge floor, a cryptographic epoch-isolation construction, a graph-delta-driven State Continuity Firewall, an enterprise implementation path, an ablation-based experimental protocol, and a reference claim set released as a defensive publication. The work is a design proposal produced through independent open-source cybersecurity research; it reports no empirical security advantage and makes no patentability determination."
+}
